@@ -18,7 +18,9 @@ class RoundedButton extends StatelessWidget {
           onPressed: onPressed,
           minWidth: 200.0,
           height: 42.0,
-          child: Text('$newText',),
+          child: Text('$newText',style: TextStyle(
+            color: Colors.white,fontSize: 17
+          ),),
         ),
       ),
     );

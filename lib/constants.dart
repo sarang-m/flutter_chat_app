@@ -19,7 +19,7 @@ const kMessageContainerDecoration = BoxDecoration(
 );
 
 const kTextFieldDecoration = InputDecoration(
-  hintText: 'Enter your email',
+  hintText: 'Enter the text',
   contentPadding:
   EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
   border: OutlineInputBorder(
@@ -36,3 +36,10 @@ const kTextFieldDecoration = InputDecoration(
     borderRadius: BorderRadius.all(Radius.circular(32.0)),
   ),
 );
+
+/*
+theme: ThemeData.dark().copyWith(
+textTheme: TextTheme(
+bodyText2: TextStyle(color: Colors.black87),
+),
+),*/
