@@ -76,6 +76,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                         email: email, password: password);
                     if (newUser != null){
                       Navigator.pushNamed(context, ChatScreen.tag);
+                      //Navigator.pushNamedAndRemoveUntil(context, ChatScreen.tag, (route) => false);
                     }
                     setState(() {
                       showSpinner = false;
